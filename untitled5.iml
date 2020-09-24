@@ -1,0 +1,47 @@
+package com.company;
+
+import java.io.PrintStream;
+
+public class H1 {
+    private static Object Fanzil;
+
+    public static void main(String[] args) {
+
+        int a = 8;
+        short b = 16;
+        int c = 32;
+        long d = 64;
+        float f = 0.32f;
+        double g = 444.54;
+        boolean tf = true;
+
+        char ch = 'š';
+
+        String str = "Hello";
+        double h;
+        h = (c / d);
+        System.out.println("h=" + h);
+
+        h = (b + (c / d));
+        System.out.println("h=" + h);
+
+        h = a * (b + (c / d));
+        System.out.println("h=" + h);
+
+        System.out.println("a=" + a + " b=" + b + " c=" + c + " d=" + d);
+        System.out.println("f=" + f + " g=" + g + " tf=" + tf + " str=" + str + " char=" + ch);
+        System.out.println("a+b=" + (a + b) + " f+c=" + (f + c) + " c=" + c + " d=" + d);
+        System.out.println("h=" + h);
+    }
+
+    public static boolean fouth(int a, int b){
+        return 10 <= a + b && a + b <= 20;
+        (int a){
+            System.out.println(a < 0 ? "-" : "+");
+        }
+        public static boolean sixth(int i){
+            return i < 0;
+        }
+        public static void seventh(String name){
+            PrintStream printf = System.out.printf("Hey,", +name + "!");
+        }
